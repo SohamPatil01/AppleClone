@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+.header-info {
+  position: fixed;
+  justify-content: center;
+  background-color: #202020;
+  width: 100vw;
+}
+.header-info ul {
+  height: 45px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+}
+.header-info ul a {
+  color: #c8c8c8;
+}
+.flag {
+  height: 100px;
+  background-color: #282828;
+  border: solid;
+}
+.flag-content {
+  height: 50px;
+
+  /* padding: 50px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+.flag-content p {
+  font-size: 16px;
+  font-weight: 100;
+  color: white;
+}
+.main-1 {
+  background-repeat: no-repeat;
+  background-size: 600px 330px;
+  background-position: bottom;
+  background-image: url(https://www.apple.com/v/macbook-air/s/images/meta/macbook_air_mx__ez5y0k5yy7au_og.png);
+  height: 500px;
+  background-color: #f8f8f8;
+  padding: 3vw;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  /* align-items: center;*/
+}
+
+.heading {
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  text-align: center;
+}
+.heading h1 {
+  font-weight: 500;
+  font-size: 54px;
+  align-self: flex-start;
+  line-height: 1.07143;
+
+  letter-spacing: -0.005em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+.heading h5 {
+  margin-top: 3px;
+  font-weight: 350;
+  font-size: 27px;
+}
+.button-1 {
+  height: 40px;
+  width: 120px;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+
+  background-color: #0071e3;
+  font-size: 17px;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid #0071e3;
+}
+.button-2 {
+  height: 40px;
+  width: 70px;
+
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  background-color: white;
+  font-size: 17px;
+  margin-left: 10px;
+  color: #0071e3;
+  border-radius: 20px;
+  border: 1px solid #0071e3;
+}
+.photo {
+  margin-top: 10px;
+}
+.main-2 {
+  background-repeat: no-repeat;
+  background-size: 1000px 370px;
+  background-position: 250px 140px;
+  background-image: url("https://www.apple.com/v/macbook-pro/an/images/overview/welcome/welcome_hero_endframe__c61x1mv7kgqe_large.jpg");
+  height: 580px;
+  background-color: black;
+  padding: 3vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading-2 {
+  padding-left: 31px;
+}
+.heading-2 h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 54px;
+  align-self: flex-start;
+  line-height: 1.07143;
+  color: white;
+  letter-spacing: -0.005em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+.heading-2 h5 {
+  margin-top: 10px;
+  font-weight: 350;
+  font-size: 27px;
+  color: white;
+}
+.heading-3 {
+  margin-top: 250px;
+}
+.heading-3 h3 {
+  background-image: linear-gradient(
+    to right,
+    #032eff,
+    purple,
+    violet,
+    tomato,
+    red
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.heading-3 p {
+  color: grey;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  padding-top: 10px;
+}
