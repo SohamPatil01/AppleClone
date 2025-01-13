@@ -11,7 +11,7 @@ a {
   position: fixed;
   justify-content: center;
   background-color: #202020;
-  width: 100vw;
+  width: 100%;
 }
 .header-info ul {
   height: 45px;
@@ -112,7 +112,7 @@ a {
 }
 .main-2 {
   background-repeat: no-repeat;
-  background-size: 1000px 370px;
+  background-size: 139.4700139470014vh 25.170068027210885vw;
   background-position: 250px 140px;
   background-image: url("https://www.apple.com/v/macbook-pro/an/images/overview/welcome/welcome_hero_endframe__c61x1mv7kgqe_large.jpg");
   height: 580px;
